@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    background: silver;
+}
+
+img{
+    width: 60vw;
+    margin: 1vw;
+}
+
+.apresentacao_principal{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    background: whitesmoke;
+}
+
+.apresentacao_beneficios{
+    display: flex;
+    align-content: space-evenly;
+    align-items: start;
+    padding: 2vw;
+    background: beige;    
+}
+
+.imagembeneficios{
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    text-align: center;    
+}
+
+em strong {
+    color: red;
+}
+
+/*
+#banner{
+    width: 100%;
+} 
+*/
+
+#missao {
+    font-size: 20px;
+}
+
+.itens{
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+footer{
+    padding: 10vh;
+    text-align: center;
+    font-size: 80%;
+}
